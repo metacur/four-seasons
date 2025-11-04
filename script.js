@@ -62,6 +62,7 @@
     let time = 0;
     let snowGround = 0;
     let clouds = [];
+    let isTransitioning = false;
 
     class Particle {
       constructor(season) {
